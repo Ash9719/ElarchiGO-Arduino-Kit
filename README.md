@@ -51,8 +51,6 @@ To build all the projects in this kit, you will need the components listed below
     * [Download the latest Arduino IDE here](https://www.arduino.cc/en/software).
     * Follow the installation instructions in Chapter 02 of the kit manual to configure the IDE.
 * **Required Libraries:** Some advanced projects require external libraries. Install these via the Arduino IDE Library Manager (`Sketch` -> `Include Library` -> `Manage Libraries...`):
-    * `RF24` by TMRh20 (For NRF24L01 wireless projects)
-    * `SparkFun APDS9960` (For the gesture sensor project)
 
 ---
 
