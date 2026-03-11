@@ -30,7 +30,6 @@ To build all the projects in this kit, you will need the components listed below
 * LEDs (Red, Yellow, Green)
 * 0.96" I2C OLED Display
 * Resistors (220Ω, 10kΩ)
-* Potentiometer & LDR (Light Dependent Resistor)
 * Buzzer
 * Push Buttons / Switches
 * Ultrasonic Sensor (HC-SR04)
