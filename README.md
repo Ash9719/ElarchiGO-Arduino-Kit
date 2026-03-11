@@ -7,7 +7,7 @@ Codes for all the projects present in the ElarchiGO Arduino kit.
 
 Welcome to the official code repository for the **ElarchiGO Arduino Kit 1.0** by ELARCHITEK. This repository contains all the Arduino sketches (`.ino` files) needed to complete the projects in the kit's manual.
 
-This kit is designed for beginners and school students to get a hands-on introduction to electronics, programming, robotics, and wireless communication with the Arduino platform.
+This kit is designed for beginners and students to get a hands-on introduction to electronics, programming, robotics, and wireless communication with the Arduino platform.
 
 ## Table of Contents
 
