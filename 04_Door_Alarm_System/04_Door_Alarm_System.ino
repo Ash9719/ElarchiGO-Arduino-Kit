@@ -1,20 +1,25 @@
-/*
- * ElarchiGO Arduino Kit 1.0
- * Verified code will be pasted here soon!
- */
+// Project 04: Basic Door Alarm
 
-// ==========================================
-// PASTE YOUR VERIFIED CODE BELOW THIS LINE
-// ==========================================
+const int buttonPin = 2;
+const int buzzerPin = 8;
+
+int buttonState = 0;
 
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  // Read the state of the push button
+  buttonState = digitalRead(buttonPin);
 
-// ==========================================
-// PASTE YOUR VERIFIED CODE ABOVE THIS LINE
-// ==========================================
+  // If the button is pressed (HIGH), the "door is open"
+  if (buttonState == HIGH) {
+    // Sound the alarm
+    tone(buzzerPin, 1000); // Play a 1000Hz tone
+  } else {
+    // If the button is not pressed, turn the alarm off
+    noTone(buzzerPin);
+  }
+}
