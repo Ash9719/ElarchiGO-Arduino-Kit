@@ -1,5 +1,5 @@
 
-// Project 11: Smartphone-Controlled Bluetooth Car
+// Project 10: Smartphone-Controlled Bluetooth Car
 
 #include <SoftwareSerial.h>
 
