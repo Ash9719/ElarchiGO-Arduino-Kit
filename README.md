@@ -24,8 +24,8 @@ This kit is designed for beginners and students to get a hands-on introduction t
 ### Hardware ⚙️
 
 To build all the projects in this kit, you will need the components listed below. Please refer to the full manual for a detailed wiring list for each specific project.
-* Arduino Uno & Arduino Nano
-* Breadboards & Jumper Wires
+* Arduino Uno
+* Breadboard & Jumper Wires
 * USB Cable
 * LEDs (Red, Yellow, Green)
 * 0.96" I2C OLED Display
@@ -34,11 +34,7 @@ To build all the projects in this kit, you will need the components listed below
 * Push Buttons / Switches
 * Ultrasonic Sensor (HC-SR04)
 * IR Sensors (Infrared Sensors)
-* Photoelectric Count Slot Sensors (Optical Encoders)
-* NRF24L01 2.4GHz Wireless Transceiver Modules
 * HC-05 Bluetooth Module
-* APDS-9960 Gesture Sensor
-* HW504 Joystick Module
 * DC Motors with Wheels
 * Servo Motor (SG90)
 * DRV8833 Motor Driver
@@ -63,7 +59,7 @@ To build all the projects in this kit, you will need the components listed below
 
 2.  **Open a Project Sketch:**
     * Navigate into the unzipped folder.
-    * You can click the direct links in the section below, or open the folders manually. *Note: Projects using two Arduinos will have separate sub-folders for the Transmitter and Receiver.*
+    * You can click the direct links in the section below, or open the folders manually.
     * Double-click the `.ino` file to open it in the Arduino IDE.
 
 3.  **Upload to Arduino:**
@@ -109,23 +105,9 @@ Click on any of the `.ino` file links below to jump directly to the code for tha
 * **Description:** An autonomous robot that uses two downward-facing IR sensors to detect and follow a continuous black line on the floor.
 * **💻 Code:** [`09_Line_Following_Robot.ino`](./09_Line_Following_Robot/09_Line_Following_Robot.ino)
 
-### 10: Self-Correcting Straight-Line Robot
-* **Description:** Uses optical slot sensors and PID control logic to count wheel rotations and keep the robot driving in a perfectly straight line without drifting.
-* **💻 Code:** [`10_Self_Correcting_Straight_Line_Robot.ino`](./10_Self_Correcting_Straight_Line_Robot/10_Self_Correcting_Straight_Line_Robot.ino)
-
-### 11: Smartphone-Controlled Bluetooth Car
+### 10: Smartphone-Controlled Bluetooth Car
 * **Description:** Connect an HC-05 Bluetooth module to your robot and use a free smartphone app as a wireless steering wheel to control its movements.
-* **💻 Code:** [`11_Smartphone_Controlled_Bluetooth_Car.ino`](./11_Smartphone_Controlled_Bluetooth_Car/11_Smartphone_Controlled_Bluetooth_Car.ino)
-
-### 12: Wireless RC Car
-* **Description:** A dual-board project! Build a joystick remote control using an Arduino Nano, and use NRF24L01 radio modules to drive an Arduino Uno robot car wirelessly.
-* **💻 Transmitter Code (Nano):** [`Transmitter_Nano.ino`](./12_Wireless_RC_Car/Transmitter_Nano/Transmitter_Nano.ino)
-* **💻 Receiver Code (Uno):** [`Receiver_Uno.ino`](./12_Wireless_RC_Car/Receiver_Uno/Receiver_Uno.ino)
-
-### 13: Gesture-Controlled Wireless RC Car
-* **Description:** The ultimate upgrade! Use the APDS-9960 sensor on your remote to control your wireless RC car using Jedi-like hand swipes (Up, Down, Left, Right).
-* **💻 Transmitter Code (Nano):** [`Transmitter_Nano.ino`](./13_Gesture_Controlled_Wireless_RC_Car/Transmitter_Nano/Transmitter_Nano.ino)
-* **💻 Receiver Code (Uno):** [`Receiver_Uno.ino`](./13_Gesture_Controlled_Wireless_RC_Car/Receiver_Uno/Receiver_Uno.ino)
+* **💻 Code:** [`10_Smartphone_Controlled_Bluetooth_Car.ino`](./10_Smartphone_Controlled_Bluetooth_Car/11_Smartphone_Controlled_Bluetooth_Car.ino)
 
 ---
 
