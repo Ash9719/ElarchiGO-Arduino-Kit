@@ -107,7 +107,7 @@ Click on any of the `.ino` file links below to jump directly to the code for tha
 
 ### 10: Smartphone-Controlled Bluetooth Car
 * **Description:** Connect an HC-05 Bluetooth module to your robot and use a free smartphone app as a wireless steering wheel to control its movements.
-* **💻 Code:** [`10_Smartphone_Controlled_Bluetooth_Car.ino`](./10_Smartphone_Controlled_Bluetooth_Car/11_Smartphone_Controlled_Bluetooth_Car.ino)
+* **💻 Code:** [`10_Smartphone_Controlled_Bluetooth_Car.ino`](./10_Smartphone_Controlled_Bluetooth_Car/10_Smartphone_Controlled_Bluetooth_Car.ino)
 
 ---
 
